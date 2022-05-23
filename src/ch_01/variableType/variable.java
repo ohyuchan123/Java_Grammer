@@ -1,4 +1,4 @@
-package ch_01;
+package ch_01.variableType;
 
 public class variable {
     public static void main(String[] args)

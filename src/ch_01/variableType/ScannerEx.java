@@ -1,4 +1,4 @@
-package ch_01;
+package ch_01.variableType;
 
 
 import java.util.Scanner;
