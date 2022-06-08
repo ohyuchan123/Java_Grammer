@@ -1,4 +1,4 @@
-package ch_06.Overriding.packageAndimport;
+package ch_06.packageAndimport;
 
 public class PackageTest {
     public static void main(String[] args) {

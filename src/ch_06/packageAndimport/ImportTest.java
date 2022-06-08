@@ -1,4 +1,4 @@
-package ch_06.Overriding.packageAndimport;
+package ch_06.packageAndimport;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
