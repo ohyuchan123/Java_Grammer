@@ -4,15 +4,12 @@ import java.util.Scanner;
 
 public class CardGame {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+
         int sum=0;
-        int[] x= new int[6];
-
         for(int i=0;i<5;i++){
-            x[i] = sc.nextInt();
-            sum+=x[i];
+            sum+=scanner.nextInt();
         }
-
         System.out.println(sum);
     }
 }
