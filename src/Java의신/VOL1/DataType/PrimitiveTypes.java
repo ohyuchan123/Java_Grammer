@@ -4,6 +4,22 @@ public class PrimitiveTypes {
     public static void main(String[] args) {
         PrimitiveTypes primitiveTypes = new PrimitiveTypes();
         primitiveTypes.checkByte();
+        primitiveTypes.defaultValues();
+    }
+    public void defaultValues(){
+        int intDefault1;
+        byte byteDefault = 0;
+        short shortDefault = 0;
+        float floatDefault = 0;
+        double doubleDefault = 0;
+        char charDefault = 0;
+        boolean booleanDefault = false;
+        System.out.println("byteDefault"+byteDefault);
+        System.out.println("byteDefault"+shortDefault);
+        System.out.println("byteDefault = "+floatDefault);
+        System.out.println("byteDefault = "+doubleDefault);
+        System.out.println("byteDefault = "+charDefault);
+        System.out.println("byteDefault = "+booleanDefault);
     }
     public void checkByte(){
         byte byteMin = -128;
