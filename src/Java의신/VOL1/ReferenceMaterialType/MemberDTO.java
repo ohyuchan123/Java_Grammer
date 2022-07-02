@@ -45,4 +45,21 @@ public class MemberDTO {
         MemberDTO dto = new MemberDTO();
         return dto;
     }
+    public void MakeMemberObject(){
+        MemberDTO dto1 = new MemberDTO();
+        MemberDTO dto2 = new MemberDTO("Sangmin");
+        MemberDTO dto3 = new MemberDTO("Sangmin","010-XXXX-YYYY");
+        MemberDTO dto4 = new MemberDTO("Sangmin","010-XXXX-YYYY","javagod@email.com");
+
+        System.out.println("name : "+dto1.name+"   |   phone : "+dto1.phone+"   |   email : "+dto1.email);
+        System.out.println("name : "+dto2.name+"   |   phone : "+dto2.phone+"   |   email : "+dto2.email);
+        System.out.println("name : "+dto3.name+"   |   phone : "+dto3.phone+"   |   email : "+dto3.email);
+        System.out.println("name : "+dto4.name+"   |   phone : "+dto4.phone+"   |   email : "+dto4.email);
+    }
+
+    public static void main(String[] args) {
+        MemberDTO mem = new MemberDTO();
+
+        mem.MakeMemberObject();
+    }
 }
