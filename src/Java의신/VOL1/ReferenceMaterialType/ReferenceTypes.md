@@ -11,8 +11,8 @@
   그리고 생성자를 작성할 때에는 클래스 가장 윗부분에 선언하는 것이 좋다
   ```
   
-```java
-public class ReferenceTypes{
+   ```java
+   public class ReferenceTypes{
     public ReferenceTypes(){
         
     }
@@ -26,5 +26,15 @@ public class ReferenceTypes{
     public void set000(){
         
     } -> 메소드 영역
-}
-```
+   }
+   ```
+- 생성자는 몇 개까지 만들 수 있을까?   
+   ```
+   자바 클래스의 객체를 보다 간편하게 만들기 위해서 여러 가지 매개 변수를 갖는 여러
+   생성자들을 가질 수 있다. 생성자의 개수는 1개여도 되고 100개가 되도 상관이 없다.
+   이러한 이유는 자바 패턴 중에서 DTO라는 것이 있다, 어떤 속성을 갖는 클래스를 만들고 
+   그 속성들을 쉽게 전달하기 위해서 DTO라는 것을 만든다. DTO(Data Transfer Object)
+   비슷한 클래스로 VO가 있다. VO(Value Object)는 DTO와 동일하지만 VO는 데이터를
+   담아 두기 위한 목적으로 사용되며, DTO는 데이터를 다른 서버로 전달하기 위한 것이 주 
+   목적이다
+  ```
