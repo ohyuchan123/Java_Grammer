@@ -1,4 +1,4 @@
-package 토비의_스프링.스프링의_이해와_원리.User;
+package 토비의_스프링.스프링의_이해와_원리.User.database;
 
 public class User {
     // 사용자 정보를 저장할 때에느 자바빈 규약을 따르는 오브젝트를 이용하면 편리하다.
